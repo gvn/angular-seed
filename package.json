@@ -1,7 +1,7 @@
 {
-  "name": "angular-seed",
+  "name": "webmaker-angular-seed",
   "version": "0.0.1",
-  "description": "Angular Seed",
+  "description": "Webmaker Angular Seed",
   "main": "app/js/app.js",
   "scripts": {
     "test": "grunt validate",
@@ -11,10 +11,12 @@
   "author": "author",
   "dependencies": {},
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-jshint": "0.7.2",
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "0.10.0",
     "grunt-jsbeautifier": "0.2.6",
-    "grunt-contrib-connect": "0.6.0"
+    "grunt-contrib-connect": "0.6.0",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-contrib-less": "0.11.0"
   },
   "engines": {
     "node": ">=0.10"
